@@ -1,0 +1,24 @@
+.homePage {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    
+    &__header {
+        text-align: center;
+    }  
+    &__about {
+        margin-top: 30px;
+    }
+    & h1 {
+        font-size: 36px;
+        color: #4741b7;
+        margin-bottom: 5px;
+    } 
+    & h2 {
+        margin-bottom: 10px;
+    }
+    & p {
+        font-size: 18px;
+    }
+}
+  

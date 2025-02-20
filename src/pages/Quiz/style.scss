@@ -1,0 +1,43 @@
+.questionList {
+    & ul {
+        padding:0;
+        list-style-type: none;
+    }
+    
+    padding: 20px;
+    &__result {
+        margin-left:25px;
+        margin-bottom:10px;
+        display: none;
+    }
+    &__title {
+        text-align: center;
+    }
+    &__list {
+        margin-left: 25px;
+        padding:10px !important;
+    }
+    &__question {
+        margin-bottom: 15px;
+    
+        &--query {
+            margin-bottom: 3px;
+        }
+        & input {
+            margin-right:5px;
+        }
+    }
+
+    &__support {
+        width: 100%;
+        text-align: center;
+        margin-top:10px;
+        & button {
+            width: 70px;
+            height: 30px;
+        }
+        &--tryAgain {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.active {
+    border-radius: 10px;
+    background: rgb(63, 79, 79);
+}   
+
+.layoutDefault {
+    &__header {
+        height: calc(5vh);
+        background: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+        display: flex;
+        padding: 10px 30px 10px 30px;
+        align-items: center;
+        justify-content: space-between;
+
+        &--logo {
+            & a{
+            font-weight: 600;
+            font-size: 24px;
+            }
+        }
+        &--menu--guess {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-width: 120px;
+        }
+        &--menu--user {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+        }
+        &--navigate {
+            align-items: center;
+            display: flex;
+            justify-content: space-evenly;
+            min-width: 40%;
+        }
+        &--button {
+            background: none;
+            border: none;
+            color:white;
+            font-weight: 600;
+            font-size: 15px;
+            padding: 5px;
+            cursor: pointer;
+        }
+    }
+    &__main {
+       width: 100%;
+       min-height: 90vh;
+    }
+    &__footer {
+        padding: 10px;
+        text-align: center;
+        font-weight: 600;
+        background: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+    }
+}
