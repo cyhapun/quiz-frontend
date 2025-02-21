@@ -1,4 +1,4 @@
-const API_DOMAIN = `https://dbapi-ca8u.onrender.com/`
+const API_DOMAIN = `https://dbapi-ca8u.onrender.com/`;
 
 export const get = async (path) => {
     const response = await fetch(API_DOMAIN + path)
