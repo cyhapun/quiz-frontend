@@ -7,7 +7,7 @@ function Login() {
     const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
-        // e.preventDefault();
+        e.preventDefault();
         const email = e.target[0].value;
         const password = e.target[1].value;
         const response = await login(email, password);
