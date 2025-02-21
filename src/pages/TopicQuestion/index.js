@@ -23,7 +23,7 @@ function TopicQuestion() {
         <>
            {
             loading ? 
-            <div></div>
+            <div>Đang tải...</div>
             :
             <div className="topicQuestions">
                 <h2 className="topicQuestions__title">Danh sách chủ đề ôn luyện</h2>

@@ -47,7 +47,7 @@ function Answers() {
         <>
            {
             loading ? 
-            <div></div>
+            <div>Đang tải...</div>
             :
             <div className="Answers">
                 <h2 className="Answers__title">List of completed exercises:</h2>
