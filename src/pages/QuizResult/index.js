@@ -50,7 +50,7 @@ function QuizResult() {
     return (
         <>
             {
-            answerList.length === 0 ? <div>Đang tải câu hỏi</div>
+            answerList.length === 0 ? <div>Đang tải...</div>
             :
             <form className="answerList">
                 <h2 className="answerList__title">{topicName.name}</h2>
