@@ -8,7 +8,7 @@ function Login() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        alert("Wranning");
+        console.log(e);
         const email = e.target[0].value;
         const password = e.target[1].value;
         const response = await login(email, password);
