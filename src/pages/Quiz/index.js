@@ -14,13 +14,13 @@ function Quiz() {
     const navigate = useNavigate();
 
     useEffect(()=> {
-        fetch(`http://localhost:3002/topics/${topicId}`)
+        fetch(`https://dbapi-ca8u.onrender.com/${topicId}`)
         .then(response=>response.json())
         .then(data => {
             setTopicName(data.name);
         });
 
-        fetch(`http://localhost:3002/questions?topicId=${topicId}`)
+        fetch(`https://dbapi-ca8u.onrender.com/questions?topicId=${topicId}`)
         .then(response=>response.json())
         .then(data => {
             setQuestionList(data);
