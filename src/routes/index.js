@@ -10,6 +10,7 @@ import Error404 from "../pages/Error404";
 import PrivateRoute from "../pages/PrivateRoute";
 import PublicRoute from "../pages/PublicRoute";
 import Quiz from "../pages/Quiz";
+import AI from "../pages/AI";
 
 export const routes = [
     {
@@ -47,6 +48,10 @@ export const routes = [
                     {
                         path:"/answers",
                         element:<Answers></Answers>
+                    },
+                    {
+                        path:"/AI",
+                        element:<AI></AI>
                     },
                     {
                         path:"/quiz",
