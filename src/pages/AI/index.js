@@ -59,7 +59,6 @@ export default function AI() {
             🔊 Speak Text
           </button>
         )}
-        <p className="mt-2 font-bold">{text}</p>
       </div>
     </div>
   );
