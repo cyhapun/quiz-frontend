@@ -26,9 +26,9 @@ export default function AI() {
       {/* Vocabulary Builder */}
       <div className="p-4 border rounded-lg shadow-md mb-4">
         <h2 className="text-xl font-semibold">Word of the Day</h2>
-        <p className="text-lg">"Perseverance" - Steady persistence in a course of action.</p>
+        <p className="text-lg">Hello</p>
         <button 
-          onClick={() => speakText('Perseverance - Steady persistence in a course of action.')} 
+          onClick={() => speakText('Hello')} 
           className="bg-green-500 text-white px-4 py-2 rounded-lg mt-2">
           🔊 Listen
         </button>
@@ -59,6 +59,7 @@ export default function AI() {
             🔊 Speak Text
           </button>
         )}
+        <p className="mt-2 font-bold">{text}</p>
       </div>
     </div>
   );
