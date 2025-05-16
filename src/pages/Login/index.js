@@ -30,6 +30,7 @@ function Login() {
         <>
             <form className="formLogin" onSubmit={handleSubmit}>
                 <h3 className="formLogin__label">Login Quiz</h3>
+                <p>Lưu ý: Đăng nhập có thể đợi lâu do khởi động server jsonserver (khoảng 2-3 phút)</p>
                 <input className="formLogin__input" placeholder="Nhập email"></input>
                 <br></br>
                 <input type="password" className="formLogin__input" placeholder="Nhập mật khẩu"></input>

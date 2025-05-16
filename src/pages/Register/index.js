@@ -43,6 +43,7 @@ function Register() {
         <>
             <form className="formLogin" onSubmit={handleSubmit}>
                 <h3 className="formLogin__label">Register Quiz</h3>
+                <p>Lưu ý: Đăng ký có thể đợi lâu do khởi động server jsonserver (khoảng 2-3 phút)</p>
                 <input className="formLogin__input" placeholder="Nhập họ và tên"></input>
                 <br></br>
                 <input className="formLogin__input" placeholder="Nhập email"></input>
